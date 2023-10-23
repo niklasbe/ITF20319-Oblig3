@@ -22,6 +22,6 @@ describe('Leap Year Test', function() {
     it('should return false for years divisible by 100 but not by 400', function() {
         expect(isLeapYear(1700)).to.be.false;
         expect(isLeapYear(1800)).to.be.false;
-        expect(isLeapYear(1900)).to.be.true; // test is wrong, 1900 is not a leap year
+        expect(isLeapYear(1900)).to.be.false;
     });
 });
